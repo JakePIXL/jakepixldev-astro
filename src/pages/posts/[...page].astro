@@ -1,0 +1,64 @@
+---
+import type { Page, GetStaticPathsOptions } from "astro";
+import type { CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
+import { sortByDate } from "../../utils/date";
+import Layout from "../../layouts/Layout.astro";
+import BlogPost from "../../components/BlogPost.astro";
+import Pagination from "../../components/Pagination.astro";
+
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+	const allPosts = await getCollection("posts");
+	const publicPosts = allPosts.filter((post) => !post.data.draft);
+	const allPostsByDate = sortByDate(publicPosts);
+	return paginate(allPostsByDate, { pageSize: 10 });
+}
+
+interface Props {
+	page: Page<CollectionEntry<"posts">>;
+}
+
+const { page } = Astro.props;
+
+const meta = {
+	title: "Posts",
+	description: "A collection of posts by me for an Asto starter theme",
+};
+
+const paginationProps = {
+	...(page.url.prev && {
+		prevUrl: {
+			url: page.url.prev,
+			text: `← Previous Page`,
+		},
+	}),
+	...(page.url.next && {
+		nextUrl: {
+			url: page.url.next,
+			text: `Next Page →`,
+		},
+	}),
+};
+---
+
+<Layout title="Posts">
+	<div class="px-4">
+		<h1
+			class="border-l-4 border-blue-500 pl-2 text-2xl font-semibold text-gray-800 dark:text-slate-100"
+		>
+			Posts
+		</h1>
+		<section aria-label="Blog post list">
+			<ul class="flex flex-col text-left">
+				{
+					page.data.map((p) => (
+						<li class="mb-4 flex flex-col flex-wrap gap-x-2 sm:flex-row [&_q]:w-full">
+							<BlogPost post={p} withDesc={true} />
+						</li>
+					))
+				}
+			</ul>
+			<Pagination {...paginationProps} />
+		</section>
+	</div>
+</Layout>

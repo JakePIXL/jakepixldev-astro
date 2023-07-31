@@ -1,0 +1,16 @@
+---
+import BlogPost from "./BlogPost.astro";
+
+const { posts } = Astro.props;
+---
+
+<section class="px-4 text-gray-800 dark:text-slate-100">
+	<h2
+		class="mb-4 border-l-4 border-blue-500 pl-2 text-2xl font-semibold text-gray-800 dark:text-slate-100"
+	>
+		Posts
+	</h2>
+	<ul class="flex list-none flex-col gap-4 p-0">
+		{posts.map((post) => <BlogPost post={post} />)}
+	</ul>
+</section>

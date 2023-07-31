@@ -1,0 +1,18 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import { sortByDate } from "../utils/date";
+import AboutMe from "../components/AboutMe.astro";
+import BlogPosts from "../components/BlogPosts.astro";
+
+const allPosts = await getCollection("posts");
+const publicPosts = allPosts.filter((post) => !post.data.draft);
+const allPostsByDate = sortByDate(publicPosts).slice(0, 10);
+---
+
+<Layout title="Home">
+	<main class="flex flex-col space-y-8">
+		<AboutMe />
+		<BlogPosts posts={allPostsByDate} />
+	</main>
+</Layout>

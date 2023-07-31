@@ -1,0 +1,30 @@
+---
+import { formatDate } from "../utils/date";
+
+const { post, withDesc = false } = Astro.props;
+
+const date = new Date(post.data.publishDate);
+const datetime = date.toISOString();
+const postDate = formatDate(date);
+---
+
+<li class="p-0">
+	<div class="flex flex-col md:flex-row md:items-center md:gap-4">
+		<time datetime={datetime} class="text-gray-600">{postDate}</time>
+		<a
+			href={`/posts/${post.slug}`}
+			class="h-fit text-gray-800 underline hover:text-blue-500 dark:text-slate-100"
+		>
+			<!-- prettier-ignore -->
+			{post.data.title.length > 38 ? post.data.title.substring(0, 38) + "..." : post.data.title}
+		</a>
+	</div>
+	{
+		// prettier-ignore
+		withDesc && (
+			<q class="mt-1">
+				{post.data.description.length <= 196 ? post.data.description : post.data.description.substring(0, 196) + "..."}
+			</q>
+		)
+	}
+</li>
