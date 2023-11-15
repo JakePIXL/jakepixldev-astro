@@ -32,9 +32,9 @@ const { headings } = await post.render();
 			<time datetime={datetime} class="text-sm text-gray-600 md:text-base">{postDate}</time>
 			<ul class="flex flex-row gap-1 md:gap-2">
 				{
-					tags.map((tag) => (
+					tags.map((tag: string) => (
 						<li>
-							<a href="#" class="text-sm underline hover:text-blue-500 md:text-base">
+							<a href="#" class="btn text-sm hover:text-blue-500 md:text-base">
 								{tag}
 							</a>
 						</li>
