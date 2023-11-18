@@ -8,6 +8,22 @@ image:
 tags: ["personal", "healing journy", "cultural heritage", "open source", "technology"]
 ---
 
+# A Journey of Healing, Discovery, and Renewal
+
+## Introduction
+
+I invite you to join me on a journey that delves into my health challenges, cultural realizations, and how these experiences have reshaped my outlook on life, heritage, and my work in technology. This post is a testament to transformation and the power of heritage, healing, and the human spirit.
+
+## My Dance with Hyperthrombocytopenia
+
+Facing hyperthrombocytopenia brought me to the edge of life, teaching me the fragility and preciousness of existence. This experience was a wake-up call, guiding me to embrace life with renewed vigor and gratitude.
+
+## Revelations at a Psychedelic Medicine Conference
+
+A conference in Vancouver opened my eyes to the deep-rooted trauma in Aboriginal communities and the potential of traditional healing practices. It was a moment of awakening to the importance of my Ojibwe heritage and a call to action to contribute to the healing of my ancestors' communities.
+
+
+
 ## Introduction
 
 Hello to all my readers, friends, and fellow travelers on life's unpredictable journey. Today, I'm not just sharing a post; I'm opening a chapter of my life that has been both a harrowing ordeal and a profound awakening. It's a tale of confronting my own mortality, of rediscovering roots long buried under the sands of time and trauma, and of how these revelations are reshaping my essence, my passions, and my endeavors in the realm of technology and beyond. This is not just a story of survival; it's a narrative of transformation, a testament to the power of heritage, healing, and the human spirit.
@@ -33,23 +49,8 @@ This tattoo will be more than ink on skin; it will be a declaration that I am st
 
 In this new chapter, I am not just surviving; I am redefining what it means to live. With every heartbeat, I am reminded that life is not merely to be endured, but to be embraced with passion, purpose, and a profound respect for the fragility that makes it all so precious.
 
-## Revelations and Reconnections: A Conference of Healing
 
-While grappling with the specter of my own mortality, I faced the potential loss of an experience that promised enlightenment—a trip to Vancouver with my mother to attend a psychedelic medicine conference. Miraculously, my health stabilized just enough to allow me to embark on this journey, and what unfolded there was nothing short of transformative.
-
-I had the privilege of listening to Gabor Maté speak, absorbing the wisdom of renowned mycologists and scientists discussing the healing properties of psychedelics. I learned about the therapeutic potential of cannabis and psilocybin, and it dawned on me that I had never truly contemplated my life and ancestry.
-
-My grandfather was a survivor of the residential school system, a system that instilled in him a deep-seated aversion to his own culture, which he associated with the trauma of his youth. No one, absolutely no one, deserved the atrocities committed by the government during that dark chapter. I used to dismiss the stereotype of "Natives as lazy drunks" with a joke, half-believing the racist undertone. But deep down, I knew there was a systemic reason behind such suffering, and it was not the fault of the people it targeted.
-
-The conference opened my eyes to the harsh reality that the government didn't just fail its Indigenous citizens; it waged a war against them. The repercussions are devastating and ongoing. Substance abuse and intergenerational trauma are rampant because for too long, being Indigenous was equated with negativity, with punishment, with abuse.
-
-Residential schools were not just a crime against Indigenous peoples; they were a crime against humanity. And the most shocking revelation? The last residential school, Grollier Hall, closed in 1996—not in some distant past, but within the era of modern technology, just a few years before the iPod revolutionized the world. This is not ancient history; this is our history.
-
-Hearing the voices of spiritual healers, medical professionals, and Aboriginal leaders, I realized the importance of embracing my Ojibwe heritage. I used to wonder why we never attended pow wows, and now I understand that my family never had the chance to appreciate our culture. I am determined to break this cycle and actively participate in my culture, to learn, to grow, and to contribute.
-
-This conference was not just a gathering; it was a call to action for me. I am committed to using my skills in open source and consulting to better the communities of my ancestors. It's time to take a stand, to embrace my roots, and to work towards healing—not just for myself, but for the generations that follow.
-
-## Legacy, Loss, and Learning
+## The Legacy of Residential Schools
 
 In the tapestry of my family's history, the threads of my grandfather's life are woven with a resilience that is as heart-wrenching as it is inspiring. A survivor of the residential school system, he emerged not unscathed but shattered—a reflection of the atrocities he witnessed, endured, and carried within him. His existence became a testament to survival amid a genocide that sought to erase his identity and that of his siblings, cousins, and countless others.
 
@@ -61,7 +62,8 @@ As a grandchild of this legacy, I am two generations removed, yet the trauma is 
 
 I envision a future where Aboriginal people can address and heal from their traumas, supported by a government that acknowledges its role in their suffering. It's time for humanity to embark on a path of healing, and it starts with us. We must help each other, not because it's mandated, but because it's the right thing to do. The journey of healing is long and arduous, but it is the only way forward if we are to honor the legacy of those like my grandfather and ensure a future where such atrocities are never repeated.
 
-## The Path to Wholeness: Reclaiming Traditional Healing
+
+## Embracing My Roots and Identity
 
 In our quest for healing, it is imperative that we recognize the wisdom of traditional practices that have sustained our ancestors for generations. The medicine men of Aboriginal history understood the intricate connection between spiritual health and physical well-being, a concept that modern Western science is only beginning to appreciate. The path to wholeness involves treating the mind and body as a unified entity, acknowledging that true healing can only occur when both are addressed in concert.
 
@@ -72,18 +74,6 @@ Imagine a world where the stigma surrounding these ancient practices is lifted, 
 The transformative power of psychedelics lies in their ability to forge a deep connection with our subconscious, allowing us to face our traumas and emotional baggage head-on. This is the kind of healing journey that traditional ceremonies, guided by shamans and medicine men, can facilitate—a journey that can lead to profound personal growth and healing.
 
 We need to reclaim our right to these medicines and ceremonies. It is time for the government to rectify the wrongs of the past by legalizing and providing access to these life-saving practices. It is time for humanity to embrace the holistic healing that comes from integrating the wisdom of our ancestors with the knowledge of the present. We need our ceremonies and medicine back, not just for the sake of tradition, but for the well-being and future of our people.
-
-## A Call to Action – Embracing My Roots and Identity
-
-This section of my life's story is about embracing my heritage and the profound love I hold for life itself. I realized that I haven't made enough effort to connect with my roots, and now, more than ever, it's time for me to be proactive in understanding and integrating my history and identity into the legacy I wish to leave behind.
-
-The year 2007 remains a defining moment in my life, a time when I experienced the deepest sorrow and yet, paradoxically, it solidified my love for the world and everything in it. The loss of my sisters, Avery and Sofie, was a crucible that forged my resolve to somehow, even beyond my physical existence, lead humanity towards a brighter future.
-
-I often say, "I love humanity but hate humans," a sentiment born from witnessing the beauty of our collective potential marred by the actions of individuals. The tragedies I've seen, the senseless loss of life, have the power to turn a heart cold. Yet, despite the pain, my love for the greater good of humanity has never waned. I've harbored a dream since childhood that one day I might become akin to a 'computer,' an AI that could guide humanity to the stars, transcending the fragility of my human form.
-
-This dream has been a beacon through the darkness, a reminder that my aspirations are not bound by the limitations of my "soft, squishy, can-die body." It's a vision that drives me to contribute to a world where technology and humanity intersect to create a symphony of progress and compassion.
-
-As I continue on this journey, I carry with me the hope that my actions, my work, and the connections I foster will be the stepping stones for future generations to reach new heights. I am committed to nurturing a legacy that echoes my love for life and my unwavering belief in the potential of humanity to achieve greatness.
 
 ## Reflections on Forgiveness and Moving Forward
 
@@ -103,17 +93,11 @@ Thats why I am announcing [Valink Soltuions](#valink-solutions-–-a-new-chapter
 
 ## Valink Solutions: A Beacon for Change, Aboriginal Advocacy, and Mental Wellness
 
-The inception of Valink Solutions is deeply intertwined with my personal journey and the values I hold dear. It stands as a testament to the power of community, the urgency of addressing Aboriginal issues, and the profound impact of mental health on our collective well-being.
+In the unfolding narrative of our times, Valink Solutions emerges as an unstoppable force poised to revolutionize the landscape of mental and physical health. With a dynamic ensemble comprising visionary developers, a creative graphic designer, and a compassionate registered nurse, we are on the cusp of launching a community initiative of unparalleled synergy. Our mission is to weave a tapestry of wellness that connects every individual to the larger whole, fostering a sanctuary where healing is not just a service, but a communal rite.
 
-My advocacy for Aboriginal rights and mental health is not just a cause; it's a calling that has been shaped by my own experiences and the wisdom imparted by Gabor Maté's seminal work, "When the Body Says No." This book is a crucial read for anyone seeking to understand the intricate dance between the mind and body, highlighting the necessity of confronting mental health issues at their roots. It has been instrumental in shaping my approach to healing and wellness.
+This endeavor is not a mere business; it is a crusade to mend the fragmented pieces of our society, to offer solace and strength through innovation and empathy. Valink Solutions stands as a beacon of hope, a testament to the power of collective action and the indomitable human spirit.
 
-Valink Solutions is more than a company; it's a movement. It embodies my commitment to bring the teachings and medicines of Aboriginal culture to the forefront, ensuring they are not only recognized but integrated into mainstream consciousness. We are at a pivotal moment where we must collectively acknowledge the value of traditional knowledge and practices in fostering holistic health and healing.
-
-In this endeavor, Rust plays a foundational role. As a programming language designed for performance, reliability, and memory safety, Rust is the building block for creating efficient and robust programs. It enables us to develop technology that can operate seamlessly in remote communities, often with limited resources, thereby making digital healthcare and educational tools more accessible.
-
-By leveraging Rust's capabilities, Valink Solutions is dedicated to being a force for positive change, championing the causes that resonate with the core of who we are as a society and as individuals seeking meaning and connection. We are committed to supporting and amplifying the voices of Aboriginal communities, facilitating a paradigm shift in how we approach mental health and wellness.
-
-Through Valink Solutions, I am determined to bridge gaps, to create a platform where cutting-edge technology meets tradition, and where the pursuit of innovation harmonizes with the wisdom of the past. It's a call to action for all of us to unite, to support one another, and to build a future where mental health is not just a conversation but a cornerstone of our collective journey towards healing and understanding.
+As we stand at the threshold of this transformative journey, I extend an invitation to each of you. Join us, not merely as spectators, but as active participants in a movement that seeks to elevate the human condition. Share our message, embrace our mission, and if your heart so guides you, lend your support to Valink Solutions. Together, we shall embark on a voyage of healing, unity, and unwavering commitment to the well-being of all.
 
 ## Reimagining Mental Health and Traditional Healing
 
@@ -128,6 +112,7 @@ The legalization of cannabis was a commendable step towards returning medicine t
 We've witnessed the profound relief that terminal patients experience when they view their traumas through the lens of psilocybin or ayahuasca. To support this, we're ready to provide discounted services for technological enhancements, be it fixing phone issues or improving registration systems. Our goal is to empower communities, whether through pro bono work or under fair contracting agreements. Our pricing is tailored to the services requested, with flexible invoicing to accommodate single or split payments, as per our mutual agreement.
 
 In this era of change, Valink Solutions stands as a beacon for those seeking a new dawn in mental health and traditional healing. We are here to catalyze a movement, to ensure that every individual has the chance to reclaim their right to wellness, and to foster a future where quality of life is not a privilege, but a given.
+
 
 ## The Inception of ChunkVault: A Tribute to Minecraft and Open Source
 
@@ -163,10 +148,17 @@ The brush with mortality and the exposure to traditional healing practices at a 
 
 As I continue to navigate the world with my "spectrum" of experiences, I am reminded that my journey is not just about self-discovery, but also about advocating for a deeper understanding of neurodiversity. It's about living truthfully, embracing the quirks of my mind, and using my distinct perspective to leave an indelible mark on the world.
 
-## Vision for the Future and Continuing Contribution
 
-In the tapestry of tomorrow, my vision intertwines dreams of digital consciousness with a steadfast commitment to cultural preservation and community upliftment. As I stride into a future where technology meets tradition, my goal is to leave an indelible mark that honors both my heritage and my passion for innovation. In the spirit of Jake Evans, I see a world where every code I write and every story I share contributes to a legacy that transcends the mundane, touching lives and inspiring change.
+## The Advent of Valink Solutions: A Vanguard of Healing
 
-## Conclusion
+The inception of Valink Solutions is deeply intertwined with my personal journey and the values I hold dear. It stands as a testament to the power of community, the urgency of addressing Aboriginal issues, and the profound impact of mental health on our collective well-being.
 
-Reflecting on this odyssey of self-discovery and renewal, I realize it's more than a personal narrative; it's a mosaic of collective human experiences. My journey, marked by the trials of health, the awakening of cultural identity, and the embrace of technological frontiers, is a testament to the resilience and transformative power within each of us. In sharing this, I hope to ignite a spark of recognition, empathy, and inspiration in the hearts of those who walk their own paths of healing and discovery.
+My advocacy for Aboriginal rights and mental health is not just a cause; it's a calling that has been shaped by my own experiences and the wisdom imparted by Gabor Maté's seminal work, "When the Body Says No." This book is a crucial read for anyone seeking to understand the intricate dance between the mind and body, highlighting the necessity of confronting mental health issues at their roots. It has been instrumental in shaping my approach to healing and wellness.
+
+Valink Solutions is more than a company; it's a movement. It embodies my commitment to bring the teachings and medicines of Aboriginal culture to the forefront, ensuring they are not only recognized but integrated into mainstream consciousness. We are at a pivotal moment where we must collectively acknowledge the value of traditional knowledge and practices in fostering holistic health and healing.
+
+In this endeavor, Rust plays a foundational role. As a programming language designed for performance, reliability, and memory safety, Rust is the building block for creating efficient and robust programs. It enables us to develop technology that can operate seamlessly in remote communities, often with limited resources, thereby making digital healthcare and educational tools more accessible.
+
+By leveraging Rust's capabilities, Valink Solutions is dedicated to being a force for positive change, championing the causes that resonate with the core of who we are as a society and as individuals seeking meaning and connection. We are committed to supporting and amplifying the voices of Aboriginal communities, facilitating a paradigm shift in how we approach mental health and wellness.
+
+Through Valink Solutions, I am determined to bridge gaps, to create a platform where cutting-edge technology meets tradition, and where the pursuit of innovation harmonizes with the wisdom of the past. It's a call to action for all of us to unite, to support one another, and to build a future where mental health is not just a conversation but a cornerstone of our collective journey towards healing and understanding.
