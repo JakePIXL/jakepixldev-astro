@@ -2,6 +2,7 @@
 import type { CollectionEntry } from "astro:content";
 import Layout from "./Layout.astro";
 import { formatDate } from "../utils/date";
+import "../style/global.postcss";
 
 interface Props {
 	post: CollectionEntry<"posts">;
@@ -34,7 +35,7 @@ const { headings } = await post.render();
 				{
 					tags.map((tag: string) => (
 						<li>
-							<a href="#" class="btn text-sm hover:text-blue-500 md:text-base">
+							<a href="#" class="badge badge-sm">
 								{tag}
 							</a>
 						</li>

@@ -13,7 +13,7 @@ const postDate = formatDate(date);
 		<time datetime={datetime} class="text-gray-600">{postDate}</time>
 		<a
 			href={`/posts/${post.slug}`}
-			class="h-fit text-gray-800 underline hover:text-blue-500 dark:text-slate-100"
+			class="badge badge-sm"
 		>
 			<!-- prettier-ignore -->
 			{post.data.title.length > 38 ? post.data.title.substring(0, 38) + "..." : post.data.title}
