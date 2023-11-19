@@ -22,19 +22,33 @@ const date = new Date(publishDate);
 const datetime = date.toISOString();
 const postDate = formatDate(date);
 const imgUrl = new URL(`/og-image/${slug}.png`, Astro.url).href;
-const { headings } = await post.render();
+const { headings, remarkPluginFrontmatter } = await post.render();
 ---
 
 <Layout title={title} ogImage={imgUrl} description={description} articleDate={postDate}>
 	<main class="h-full min-w-full flex-grow space-y-6 px-4">
-		<h1 class="mb-0 border-b-2 pb-4 text-2xl tracking-wide">{title}</h1>
-		<div class="flex w-full flex-row items-center justify-between">
-			<time datetime={datetime} class="text-sm text-gray-600 md:text-base">{postDate}</time>
-			<ul class="flex flex-row gap-1 md:gap-2">
+		<div class="mb-0 border-b-2 border-slate-600 pb-4">
+			<h1 class="border-l-4 border-blue-600 pl-4 text-2xl font-bold tracking-wide">{title}</h1>
+		</div>
+		<div class="flex w-full flex-col items-center justify-between gap-4 md:flex-row">
+			<div class="flex flex-row items-center gap-4">
+				<time datetime={datetime} class="whitespace-nowrap text-sm text-gray-600 md:text-base"
+					>{postDate}</time
+				>
+				<span class="whitespace-nowrap text-gray-500 opacity-40">
+					{remarkPluginFrontmatter.minutesRead}
+				</span>
+			</div>
+			<ul
+				class="scrollable-element flex max-w-[450px] flex-row gap-1 overflow-y-hidden overflow-x-scroll pb-2 md:gap-2"
+			>
 				{
 					tags.map((tag: string) => (
 						<li>
-							<a href="#" class="btn text-sm hover:text-blue-500 md:text-base">
+							<a
+								href="#"
+								class="btn drop-shadow-[0px 2px 0px blue] items-center whitespace-nowrap bg-blue-500 px-2 py-1.5 text-xs hover:bg-blue-700 md:text-base"
+							>
 								{tag}
 							</a>
 						</li>
@@ -50,3 +64,29 @@ const { headings } = await post.render();
 		</div>
 	</main>
 </Layout>
+
+<style lang="postcss">
+	.scrollable-element {
+		/* Your styles for the scrollable element */
+
+		/* Styling the scrollbar */
+		&::-webkit-scrollbar {
+			width: 10px; /* Adjust the width of the scrollbar */
+			height: 10px;
+			opacity: 10%;
+		}
+
+		&::-webkit-scrollbar-track {
+			background: transparent; /* Making the track transparent */
+		}
+
+		&::-webkit-scrollbar-thumb {
+			@apply bg-blue-500 hover:bg-blue-700; /* Style for the thumb */
+			border-radius: 0px; /* Optional: to make the thumb rounded */
+			&:hover {
+			/* background: #0f172a; Style for the thumb on hover */
+			}
+		}
+		}
+
+</style>

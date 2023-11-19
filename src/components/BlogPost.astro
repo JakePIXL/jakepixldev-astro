@@ -2,6 +2,7 @@
 import { formatDate } from "../utils/date";
 
 const { post, withDesc = false } = Astro.props;
+const { Content, remarkPluginFrontmatter } = await post.render();
 
 const date = new Date(post.data.publishDate);
 const datetime = date.toISOString();
@@ -9,14 +10,19 @@ const postDate = formatDate(date);
 ---
 
 <li class="p-0">
-	<div class="flex flex-col md:flex-row md:items-center md:gap-4">
-		<time datetime={datetime} class="text-gray-600">{postDate}</time>
+	<div class="flex flex-col items-center gap-4 md:flex-row">
+		<div class="flex w-full max-w-[250px] flex-row gap-4">
+			<time datetime={datetime} class="whitespace-nowrap text-gray-600">{postDate}</time>
+			<span class="whitespace-nowrap text-gray-500 opacity-40">
+				{remarkPluginFrontmatter.minutesRead}
+			</span>
+		</div>
 		<a
 			href={`/posts/${post.slug}`}
-			class="badge badge-sm"
+			class="link max-w-full overflow-hidden text-ellipsis whitespace-nowrap text-lg font-semibold underline hover:opacity-75"
 		>
 			<!-- prettier-ignore -->
-			{post.data.title.length > 38 ? post.data.title.substring(0, 38) + "..." : post.data.title}
+			{post.data.title}
 		</a>
 	</div>
 	{
