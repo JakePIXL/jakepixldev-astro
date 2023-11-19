@@ -11,6 +11,6 @@ const { posts } = Astro.props;
 		Posts
 	</h2>
 	<ul class="flex list-none flex-col gap-4 p-0">
-		{posts.map((post) => <BlogPost post={post} />)}
+		{posts.map((post: any) => <BlogPost post={post} />)}
 	</ul>
 </section>
