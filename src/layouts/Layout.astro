@@ -7,7 +7,7 @@ export interface Props {
 	articleDate?: string;
 }
 import Logo from "../components/Logo.astro";
-import { Sprite } from "astro-icon";
+import { Icon } from 'astro-icon/components';
 
 const { title, ogImage, description, articleDate } = Astro.props;
 
@@ -81,7 +81,6 @@ const fullTitle = `JakePIXL - ${title}`;
 					>
 				</div>
 			</a>
-			<Sprite.Provider>
 				<div class="flex flex-row items-center gap-1">
 					<span class="hidden text-sm opacity-50 md:block">Follow me on:</span>
 					<a
@@ -90,7 +89,7 @@ const fullTitle = `JakePIXL - ${title}`;
 						rel="noopener noreferrer"
 						class="text-gray-500 hover:text-blue-500"
 					>
-						<Sprite pack="mdi" name="twitter-box" size="1.5rem" />
+						<Icon name="mdi:twitter-box" size="1.5rem" />
 					</a>
 					<a
 						href="http://github.com/JakePIXL"
@@ -98,7 +97,7 @@ const fullTitle = `JakePIXL - ${title}`;
 						rel="noopener noreferrer"
 						class="text-gray-500 hover:text-blue-500"
 					>
-						<Sprite pack="mdi" name="github-box" size="1.5rem" />
+						<Icon name="mdi:github-box" size="1.5rem" />
 					</a>
 					<a
 						href="https://www.linkedin.com/in/jakepixl/"
@@ -106,7 +105,7 @@ const fullTitle = `JakePIXL - ${title}`;
 						rel="noopener noreferrer"
 						class="text-gray-500 hover:text-blue-500"
 					>
-						<Sprite pack="mdi" name="linkedin-box" size="1.5rem" />
+						<Icon name="mdi:linkedin-box" size="1.5rem" />
 					</a>
 					<a
 						href="http://instagram.com/JakePIXL"
@@ -114,7 +113,7 @@ const fullTitle = `JakePIXL - ${title}`;
 						rel="noopener noreferrer"
 						class="text-gray-500 hover:text-blue-500"
 					>
-						<Sprite pack="mdi" name="instagram" size="1.5rem" />
+						<Icon name="mdi:instagram" size="1.5rem" />
 					</a>
 					<a
 						href="https://ko-fi.com/jakepixl"
@@ -122,10 +121,9 @@ const fullTitle = `JakePIXL - ${title}`;
 						rel="noopener noreferrer"
 						class="text-gray-500 hover:text-blue-500"
 					>
-						<Sprite pack="simple-icons" name="kofi" size="1.5rem" />
+						<Icon name="simple-icons:kofi" size="1.5rem" />
 					</a>
 				</div>
-			</Sprite.Provider>
 		</header>
 		<div class="mx-auto h-full w-full max-w-3xl flex-grow space-y-6">
 			<slot />

@@ -4,15 +4,19 @@ import Layout from "../layouts/Layout.astro";
 import { sortByDate } from "../utils/date";
 import AboutMe from "../components/AboutMe.astro";
 import BlogPosts from "../components/BlogPosts.astro";
+import Projects from "../components/Projects.astro";
 
 const allPosts = await getCollection("posts");
 const publicPosts = allPosts.filter((post) => !post.data.draft);
 const allPostsByDate = sortByDate(publicPosts).slice(0, 10);
+
+const allProjects = await getCollection("projects");
 ---
 
 <Layout title="Home">
 	<main class="flex flex-col space-y-8">
 		<AboutMe />
+		<Projects projects={allProjects} />
 		<BlogPosts posts={allPostsByDate} />
 	</main>
 </Layout>

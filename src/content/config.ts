@@ -7,7 +7,8 @@ function removeDupsAndLowerCase(array: string[]) {
 	return Array.from(distinctItems);
 }
 
-const posts = defineCollection({
+const postsCollection = defineCollection({
+	type: 'content',
 	schema: z.object({
 		title: z.string().max(100),
 		description: z.string().min(50).max(260),
@@ -18,4 +19,20 @@ const posts = defineCollection({
 	}),
 });
 
-export const collections = { posts };
+const projectsCollection = defineCollection({
+	type: 'content',
+    schema: ({ image }) => z.object({
+        title: z.string().max(100),
+        description: z.string().min(50).max(900),
+        cover: image().refine((img) => img.width >= 2000, {
+			message: "Cover image must be at least 2000 pixels wide!",
+		}),
+        coverAlt: z.string().optional(),
+		projectLink: z.string().url(),
+    }),
+});
+
+export const collections = {
+	'posts': postsCollection,
+	'projects': projectsCollection
+};
