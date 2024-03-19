@@ -7,7 +7,7 @@ export interface Props {
 	articleDate?: string;
 }
 import Logo from "../components/Logo.astro";
-import { Icon } from 'astro-icon/components';
+import { Icon } from "astro-icon/components";
 
 const { title, ogImage, description, articleDate } = Astro.props;
 
@@ -73,7 +73,7 @@ const fullTitle = `JakePIXL - ${title}`;
 					<Logo />
 				</div>
 				<div class="flex w-fit flex-col gap-0">
-					<span class="flex h-fit gap-1.5 font-semibold dark:text-slate-100 md:text-xl"
+					<span class="flex h-fit gap-1.5 font-semibold md:text-xl dark:text-slate-100"
 						>Jake<span class="font-bold text-blue-500">PIXL</span>Evans</span
 					>
 					<span class="-mt-1.5 h-fit text-xs font-semibold text-slate-600 md:text-sm"
@@ -81,49 +81,49 @@ const fullTitle = `JakePIXL - ${title}`;
 					>
 				</div>
 			</a>
-				<div class="flex flex-row items-center gap-1">
-					<span class="hidden text-sm opacity-50 md:block">Follow me on:</span>
-					<a
-						href="http://twitter.com/JakePIXL"
-						target="_blank"
-						rel="noopener noreferrer"
-						class="text-gray-500 hover:text-blue-500"
-					>
-						<Icon name="mdi:twitter-box" size="1.5rem" />
-					</a>
-					<a
-						href="http://github.com/JakePIXL"
-						target="_blank"
-						rel="noopener noreferrer"
-						class="text-gray-500 hover:text-blue-500"
-					>
-						<Icon name="mdi:github-box" size="1.5rem" />
-					</a>
-					<a
-						href="https://www.linkedin.com/in/jakepixl/"
-						target="_blank"
-						rel="noopener noreferrer"
-						class="text-gray-500 hover:text-blue-500"
-					>
-						<Icon name="mdi:linkedin-box" size="1.5rem" />
-					</a>
-					<a
-						href="http://instagram.com/JakePIXL"
-						target="_blank"
-						rel="noopener noreferrer"
-						class="text-gray-500 hover:text-blue-500"
-					>
-						<Icon name="mdi:instagram" size="1.5rem" />
-					</a>
-					<a
-						href="https://ko-fi.com/jakepixl"
-						target="_blank"
-						rel="noopener noreferrer"
-						class="text-gray-500 hover:text-blue-500"
-					>
-						<Icon name="simple-icons:kofi" size="1.5rem" />
-					</a>
-				</div>
+			<div class="flex flex-row items-center gap-1">
+				<span class="hidden text-sm opacity-50 md:block">Follow me on:</span>
+				<a
+					href="http://twitter.com/JakePIXL"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="text-gray-500 hover:text-blue-500"
+				>
+					<Icon name="fa6-brands:square-x-twitter" size="1.3rem" />
+				</a>
+				<a
+					href="http://github.com/JakePIXL"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="text-gray-500 hover:text-blue-500"
+				>
+					<Icon name="mdi:github-box" size="1.5rem" />
+				</a>
+				<a
+					href="https://www.linkedin.com/in/jakepixl/"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="text-gray-500 hover:text-blue-500"
+				>
+					<Icon name="mdi:linkedin-box" size="1.5rem" />
+				</a>
+				<a
+					href="http://instagram.com/JakePIXL"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="text-gray-500 hover:text-blue-500"
+				>
+					<Icon name="mdi:instagram" size="1.5rem" />
+				</a>
+				<a
+					href="https://ko-fi.com/jakepixl"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="text-gray-500 hover:text-blue-500"
+				>
+					<Icon name="simple-icons:kofi" size="1.5rem" />
+				</a>
+			</div>
 		</header>
 		<div class="mx-auto h-full w-full max-w-3xl flex-grow space-y-6">
 			<slot />

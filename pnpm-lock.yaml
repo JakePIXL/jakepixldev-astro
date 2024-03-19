@@ -26,6 +26,9 @@ dependencies:
   '@astrojs/tailwind':
     specifier: ^5.1.0
     version: 5.1.0(astro@4.4.0)(tailwindcss@3.4.1)
+  '@iconify-json/fa6-brands':
+    specifier: ^1.1.18
+    version: 1.1.18
   '@iconify-json/ic':
     specifier: ^1.1.17
     version: 1.1.17
@@ -720,6 +723,12 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@iconify-json/fa6-brands@1.1.18:
+    resolution: {integrity: sha512-vmeJP06Xbj0XbVGiBHg0q8H3M894d4bGXKCmiHt6JqUdpiGcIV7r96N+BOU4ZS1+hvpV57fTfXlFPiUfxAIfkg==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: false
 
   /@iconify-json/ic@1.1.17:
     resolution: {integrity: sha512-EvAjZzVESmN36zlyefylePUNaU2BQ3eRKVZ6KQSQ2bG01ppoZaiFZRri74VTyvp5Mlv2yn68ux1fgCoT+etGmA==}

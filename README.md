@@ -53,9 +53,9 @@ The project follows a standard Astro project structure:
 
 Here's a quick rundown of the available commands:
 
-| Command          | Action                                      |
-| :--------------- | :------------------------------------------ |
-| `pnpm install`   | Installs dependencies                       |
-| `pnpm run dev`   | Starts local dev server at `localhost:4321` |
-| `pnpm run build` | Build your site to `./dist/`                |
-| `pnpm run preview` | Preview your build locally                |
+| Command            | Action                                      |
+| :----------------- | :------------------------------------------ |
+| `pnpm install`     | Installs dependencies                       |
+| `pnpm run dev`     | Starts local dev server at `localhost:4321` |
+| `pnpm run build`   | Build your site to `./dist/`                |
+| `pnpm run preview` | Preview your build locally                  |

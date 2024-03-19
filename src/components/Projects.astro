@@ -1,10 +1,8 @@
 ---
 import { Image } from "astro:assets";
 
-
 const { projects } = Astro.props;
-import { Icon } from 'astro-icon/components'
-
+import { Icon } from "astro-icon/components";
 ---
 
 <section class="px-4 text-gray-800 dark:text-slate-100">
@@ -13,23 +11,29 @@ import { Icon } from 'astro-icon/components'
 	>
 		Projects
 	</h2>
-	<ul class="flex flex-col list-none gap-6 p-0">
-		{projects.map((project: any) => (
-			<li class="flex-1 p-4 bg-slate-200 dark:bg-slate-800">
-				<div class="flex flex-col gap-2">
-					<div class="w-full relative">
-						<Image src={project.data.cover} alt={project.data.coverAlt} />
-                        <a href={project.data.projectLink} target="_blank" class="absolute flex flex-row items-center gap-2 top-2 right-2 p-2 px-3 bg-blue-500 hover:bg-blue-600">
-                            See More
-                            <Icon name="ic:baseline-open-in-new" />
-                        </a>
+	<ul class="flex list-none flex-col gap-6 p-0">
+		{
+			projects.map((project: any) => (
+				<li class="flex-1 bg-slate-200 p-4 dark:bg-slate-800">
+					<div class="flex flex-col gap-2">
+						<div class="relative w-full">
+							<Image src={project.data.cover} alt={project.data.coverAlt} />
+							<a
+								href={project.data.projectLink}
+								target="_blank"
+								class="absolute right-2 top-2 flex flex-row items-center gap-2 bg-blue-500 p-2 px-3 hover:bg-blue-600"
+							>
+								See More
+								<Icon name="ic:baseline-open-in-new" />
+							</a>
+						</div>
+						<div class="w-full">
+							<h3 class="text-lg font-semibold underline">{project.data.title}</h3>
+							<p>{project.data.description}</p>
+						</div>
 					</div>
-					<div class="w-full">
-						<h3 class="text-lg font-semibold underline">{project.data.title}</h3>
-						<p>{project.data.description}</p>
-					</div>
-				</div>
-			</li>
-		))}
+				</li>
+			))
+		}
 	</ul>
 </section>
